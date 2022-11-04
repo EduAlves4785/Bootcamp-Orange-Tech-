@@ -1,0 +1,80 @@
+Requisição HTTP
+
+URL:https://pokeapi.co/api/v2/pokemon
+    ${IP=Endereço}/${path=caminho e identificação do recurso}
+
+IP: https://pokeapi.co
+    
+//Informações que eu quero do servidor
+PATH: /api/v2/pokemon/50/ 
+
+//Ação que eu desejo fazer com recurso
+Request Method: GET ou POST ou PUT ou DELETE
+GET-Buscar o recurso
+POST-Inserir um dado
+PUT-Atualizar o dado
+DELETE-Deletar o dado
+
+//QueryString
+//Acessando pókemons apenas do tipo grama
+https://pokeapi.co/api/v2/pokemon?type=grass&name=i&limit=2&offset=3
+
+//offset
+paginação dos pókemons,invés de ser os dois primeiros ele pula 3 e retorna os 2 seguintes
+
+//limit
+ele limita o número de valores recebidos,nesse caso só 2 pókemons
+
+//Chave e valor
+type=grass
+name=i
+
+//Headers
+é mais usado GET
+os headers são uma configuração para requisição
+
+Response Headers
+resposta do servidor
+content-type:application/json; charset=utf-8
+
+Request Headers
+//Accept
+tipos de dados que o servidor aceita(tirados da pokeAPI)
+
+text/html
+application/xhtml+xml
+application/xml;q=0.9
+image/avif,image/webp
+image/apng,*/*;q=0.8
+application/signed-exchange;v=b3;q=0.9
+
+Linguagens que o browser aceita
+q=prioridade
+accept-lenguages:
+pt-BR;q=1,
+pt;q=0.9, 
+en-US;q=0.8,
+en;q=0.7
+
+//Request body
+corpo da requisição
+é usado POST ou PUT
+o POST é passado em JSON
+
+Exemplo:
+body a ser enviado
+{
+    "name":"Teste"
+}
+
+//STATUS CODE
+significa oque aconteceu com a requisição
+
+
+
+
+
+
+
+
+
