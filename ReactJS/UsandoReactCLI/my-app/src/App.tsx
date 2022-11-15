@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import { Feed } from "./pages/feed";
 import {Home}from './pages/home'
+import { Hooks } from "./pages/hooks";
 import {Login} from './pages/login'
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path='/' element={<Home/>}/>
           <Route path='/login' element={<Login/>}/>
           <Route path='/feed' element={<Feed/>}/>
+          <Route path='/hooks' element={<Hooks/>}/>
       </Routes>
     </Router>
   );
