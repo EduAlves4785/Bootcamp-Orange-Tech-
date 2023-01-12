@@ -2,18 +2,18 @@
 <h1 align="center">Bootcamp-Orange-Tech-</h1>
 
 ## Descrição do Projeto
-<p align="center">Aqui está algumas atividades e projetos feitos no bootcamp</p>
+<p align="left">Aqui está algumas atividades e projetos feitos no bootcamp</p>
 
-<h1 align="center">
-    <a href="https://pt-br.reactjs.org/">🔗JavaScript</a>
+<h1 align="left">
+    <b>JavaScript<b/>
 </h1>
-<p align="center">Aprendendo JavaScript e criando uma páginas web</p>
+<p align="left">Aprendendo JavaScript e criando uma páginas web</p>
 
-<h1 align="center">
-    <a href="https://pt-br.reactjs.org/">🔗React</a>
+<h1 align="left">
+    <b>React<b/>
 </h1>
-<p align="center">Aprendendo sobre o ReactJs e reecriando sites</p>
+<p align="left">Aprendendo sobre o ReactJs e reecriando sites</p>
 
-<h4 align="center"> 
+<h4 align="left"> 
 	Status:Concluído :white_check_mark:
 </h4>
