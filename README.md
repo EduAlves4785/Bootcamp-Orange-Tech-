@@ -7,7 +7,7 @@
 <h1 align="left">
     <b>JavaScript<b/>
 </h1>
-<p align="left">Aprendendo JavaScript e criando uma páginas web</p>
+<p align="left">Aprendendo JavaScript e criando páginas dinâmicas web</p>
 
 <h1 align="left">
     <b>React<b/>
